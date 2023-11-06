@@ -9,6 +9,9 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+body{
+}
+
 /* ========= pre-define css ========= */
 h1,
 h2,
@@ -46,7 +49,7 @@ ul {
 }
 
 .section__title {
-  color: #000d6b;
+  color: #ffffff;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -54,7 +57,7 @@ ul {
 .section__subtitle {
   color: #f9a826;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .section__description {
