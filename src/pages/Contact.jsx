@@ -15,17 +15,22 @@ const socialLinks = [
     url: "#",
     icon: "ri-instagram-line",
   },
-  {
-    url: "#",
-    icon: "ri-linkedin-line",
-  },
-  {
-    url: "#",
-    icon: "ri-twitter-line",
-  },
 ];
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Get form data
+    const formData = new FormData(e.target);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const message = formData.get("message");
+
+    // Open user's email client
+    window.location.href = `mailto:rentalpro@gmail.com?subject=Mail%20via%20Website%20RentalPro&body=Name:%20${name}%0D%0AEmail:%20${email}%0D%0AMessage:%20${message}`;
+  };
+
   return (
     <Helmet title="Contact">
       <CommonSection title="Contact" />
@@ -35,15 +40,16 @@ const Contact = () => {
             <Col lg="7" md="7">
               <h6 className="fw-bold mb-4 contact-title">Get In Touch</h6>
 
-              <Form>
+              <Form onSubmit={handleSubmit}>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Your Name" type="text" />
+                  <Input name="name" placeholder="Your Name" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Email" type="email" />
+                  <Input name="email" placeholder="Email" type="email" />
                 </FormGroup>
                 <FormGroup className="contact__form">
                   <textarea
+                    name="message"
                     rows="5"
                     placeholder="Message"
                     className="textarea"
@@ -60,11 +66,11 @@ const Contact = () => {
               <div className="contact__info">
                 <h6 className="fw-bold">Contact Information</h6>
                 <p className="section__description mb-0">
-                  123 ZindaBazar, Sylhet, Bangladesh
+                  123 Ali Demi,Tirana ,Albania
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
-                  <p className="section__description mb-0">+88683896366</p>
+                  <p className="section__description mb-0">+35568252833</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">

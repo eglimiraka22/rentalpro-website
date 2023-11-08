@@ -34,7 +34,7 @@ const CarDetails = () => {
                     ${singleCarItem.price}.00 / Day
                   </h6>
 
-                  <span className=" d-flex align-items-center gap-2">
+                  <span className=" d-flex align-items-center gap-2" style={{ color: "white" }}>
                     <span style={{ color: "#f9a826" }}>
                       <i class="ri-star-s-fill"></i>
                       <i class="ri-star-s-fill"></i>

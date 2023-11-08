@@ -39,79 +39,71 @@ const Testimonial = () => {
   };
 
   return (
-    <Slider {...settings}>
-      <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
-        </p>
+<Slider {...settings}>
+  <div className="testimonial py-4 px-3">
+    <p className="section__description">
+      Renting a car from Rental Pro was a breeze! The process was quick,
+      and the vehicle was in top-notch condition. Highly recommend their services.
+    </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
+    <div className="mt-3 d-flex align-items-center gap-4">
+      <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
-          <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
-          </div>
-        </div>
+      <div>
+        <h6 className="mb-0 mt-3">Emma Johnson</h6>
+        <p className="section__description">Satisfied Customer</p>
       </div>
+    </div>
+  </div>
 
-      <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
-        </p>
+  <div className="testimonial py-4 px-3">
+    <p className="section__description">
+      Exploring new destinations with Rental Pro made my trip unforgettable.
+      Quality cars, excellent service, and affordable prices. Will use again!
+    </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
+    <div className="mt-3 d-flex align-items-center gap-4">
+      <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
-          <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
-          </div>
-        </div>
+      <div>
+        <h6 className="mb-0 mt-3">Michael Davis</h6>
+        <p className="section__description">Happy Traveler</p>
       </div>
+    </div>
+  </div>
 
-      <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
-        </p>
+  <div className="testimonial py-4 px-3">
+    <p className="section__description">
+      Renting a car has never been this convenient! Thanks to Rental Pro,
+      I had a smooth and enjoyable travel experience. Great selection and service.
+    </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
+    <div className="mt-3 d-flex align-items-center gap-4">
+      <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
-          <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
-          </div>
-        </div>
+      <div>
+        <h6 className="mb-0 mt-3">Sophia Miller</h6>
+        <p className="section__description">Repeat Customer</p>
       </div>
+    </div>
+  </div>
 
-      <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
-        </p>
+  <div className="testimonial py-4 px-3">
+    <p className="section__description">
+      Exceptional service from Rental Pro! The vehicle exceeded my expectations,
+      and the rental process was seamless. Will definitely choose them again.
+    </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
+    <div className="mt-3 d-flex align-items-center gap-4">
+      <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
-          <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
-          </div>
-        </div>
+      <div>
+        <h6 className="mb-0 mt-3">David Thompson</h6>
+        <p className="section__description">Happy Customer</p>
       </div>
-    </Slider>
+    </div>
+  </div>
+</Slider>
   );
 };
 

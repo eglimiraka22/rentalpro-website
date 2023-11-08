@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
@@ -27,8 +27,43 @@ const navLinks = [
 
 const Header = () => {
   const menuRef = useRef(null);
+  const [isNavHidden, setIsNavHidden] = useState(false); // Track whether the navbar should be hidden
+  const [isNavSticky, setIsNavSticky] = useState(false); // Track whether the navbar should have a margin
+  const [prevScrollY, setPrevScrollY] = useState(0); // Track the previous scroll position  const [prevScrollY, setPrevScrollY] = useState(0); 
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const isScrollingDown = currentScrollY > prevScrollY;
+
+      // Hide the navbar when scrolling down
+      setIsNavHidden(isScrollingDown && currentScrollY > 50);
+
+      if (currentScrollY > 165) {
+        // Apply a margin of -40px when the condition is met
+        setIsNavSticky(true);
+      } else {
+        // Remove the margin when the condition is not met
+        setIsNavSticky(false);
+      }
+
+      // Reveal the navbar when scrolling all the way up
+      if (!isScrollingDown && currentScrollY === 0) {
+        setIsNavHidden(false);
+      }
+
+      setPrevScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollY]);
+
 
   return (
     <header className="header">
@@ -105,14 +140,16 @@ const Header = () => {
 
       {/* ========== main navigation =========== */}
 
-      <div className="main__navbar">
+      <div className={`main__navbar  ${isNavHidden ? "hidden-navbar" : ""} ${
+        isNavSticky ? "sticky " : ""
+      }`}>
         <Container>
-          <div className="navigation__wrapper d-flex align-items-center justify-content-center">
+          <div className="navigation__wrapper">
             <span className="mobile__menu">
               <i class="ri-menu-line" onClick={toggleMenu}></i>
             </span>
 
-            <div className="navigation" ref={menuRef} onClick={toggleMenu}>
+            <div className="navigation" ref={menuRef} >
               <div className="menu">
                 {navLinks.map((item, index) => (
                   <NavLink
@@ -125,6 +162,14 @@ const Header = () => {
                     {item.display}
                   </NavLink>
                 ))}
+                  <span className="mobile__menu__close"  onClick={toggleMenu}>
+              <i class="ri-close-line"></i>
+            </span>
+                {isNavSticky && (<div className="logo">
+                    
+              
+            </div>)}
+
               </div>
             </div>
 
