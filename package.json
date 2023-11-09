@@ -1,7 +1,6 @@
 {
   "name": "car-rental",
   "homepage": "https://sistemengrohje.tryclpanel.com",
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {

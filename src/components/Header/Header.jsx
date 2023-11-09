@@ -6,7 +6,7 @@ import "../../styles/header.css";
 import imageLogo from '../../assets/all-images/rentalpro1.png'
 const navLinks = [
   {
-    path: "/home",
+    path: "/",
     display: "Home",
   },
   {
