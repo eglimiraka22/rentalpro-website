@@ -8,11 +8,11 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "#",
+    url: "https://www.instagram.com/rentalpro.al/",
     icon: "ri-facebook-line",
   },
   {
-    url: "#",
+    url: "https://www.instagram.com/rentalpro.al/",
     icon: "ri-instagram-line",
   },
 ];
@@ -28,7 +28,7 @@ const Contact = () => {
     const message = formData.get("message");
 
     // Open user's email client
-    window.location.href = `mailto:rentalpro@gmail.com?subject=Mail%20via%20Website%20RentalPro&body=Name:%20${name}%0D%0AEmail:%20${email}%0D%0AMessage:%20${message}`;
+    window.location.href = `mailto:rentalpro2023@hotmail.com?subject=Mail%20via%20Website%20RentalPro&body=Name:%20${name}%0D%0AEmail:%20${email}%0D%0AMessage:%20${message}`;
   };
 
   return (
@@ -70,25 +70,26 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
-                  <p className="section__description mb-0">+35568252833</p>
+                  <p className="section__description mb-0">+355 69 291 1744
+</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">example@gmail.com</p>
+                  <p className="section__description mb-0">rentalpro2023@hotmail.com</p>
                 </div>
 
                 <h6 className="fw-bold mt-4">Follow Us</h6>
 
                 <div className=" d-flex align-items-center gap-4 mt-3">
                   {socialLinks.map((item, index) => (
-                    <Link
-                      to={item.url}
+                    <a
+                      href={item.url}
                       key={index}
                       className="social__link-icon"
                     >
                       <i class={item.icon}></i>
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>
