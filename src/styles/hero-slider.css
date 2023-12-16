@@ -5,7 +5,7 @@
 
 .slider__item-01 {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("../assets/all-images/slider-img/slider-1.jpg");
+    url("../assets/images/WhatsApp\ Image\ 2023-12-11\ at\ 22.43.05_f0ce9044.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 .slider__item-02 {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-  url("../assets/all-images/slider-img/slider-2.jpg");
+  url("../assets/images/head3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@
 
 .slider__item-03 {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("../assets/all-images/slider-img/slider-3.jpg");
+    url("../assets/images/header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

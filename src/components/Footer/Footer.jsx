@@ -36,11 +36,10 @@ const Footer = () => {
           <Col lg='5' md='4' sm='12'>
             <div className='logo footer__logo'></div>
             <p className='footer__logo-content'>
-              Welcome to RentalPro! We offer a wide range of options to meet
-              your needs. Whether you're looking for a cozy apartment, a
-              spacious house, or a commercial space, we have you covered. Our
-              commitment is to make your renting experience seamless and
-              enjoyable. Contact us today for your next rental adventure!
+              Explore the world with ease and comfort with RentalPro – your
+              trusted partner in hassle-free car rentals. Unleash the freedom of
+              the open road with our diverse fleet of quality vehicles. Your
+              journey begins with RentalPro.
             </p>
           </Col>
 

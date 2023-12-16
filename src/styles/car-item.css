@@ -3,7 +3,14 @@
   padding: 20px;
   border-radius: 5px;
   background-color: aliceblue;
+  height: fit-content;
 }
+.car__item  .car__img img{
+ width: 100%;
+ aspect-ratio: 5/5;
+ object-fit: cover;
+}
+
 
 .car__item-info span i {
   color: #f9a826;
