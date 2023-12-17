@@ -39,7 +39,7 @@ const Footer = () => {
               Explore the world with ease and comfort with RentalPro – your
               trusted partner in hassle-free car rentals. Unleash the freedom of
               the open road with our diverse fleet of quality vehicles. Your
-              journey begins with RentalPro.
+              journey begins with RentalPro.re
             </p>
           </Col>
 
@@ -60,7 +60,7 @@ const Footer = () => {
             <div className='mb-4'>
               <h5 className='footer__link-title mb-4'>Tirana,Ali Demi </h5>
               <p className='office__info'>123 Tirana,Albania</p>
-              <p className='office__info'>Phone: +069 291 1744</p>
+              <p className='office__info'>Phone: 069 291 1744</p>
 
               <p className='office__info'>Email: rentalpro2023@hotmail.com</p>
 
