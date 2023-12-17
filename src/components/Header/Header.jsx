@@ -75,7 +75,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Need Help?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +355 069 291 1744
+                  <i class="ri-phone-fill"></i> +355 69 291 1744
                 </span>
               </div>
             </Col>
