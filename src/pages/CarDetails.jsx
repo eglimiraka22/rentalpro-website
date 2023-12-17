@@ -30,9 +30,7 @@ const CarDetails = () => {
                 <h2 className="section__title">{singleCarItem.carName}</h2>
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
-                  <h6 className="rent__price fw-bold fs-4" style={{ color: "#f9a826" }}>
-                    ${singleCarItem.price}.00 / Day
-                  </h6>
+               
 
                   <span className=" d-flex align-items-center gap-2" style={{ color: "white" }}>
                     <span style={{ color: "#f9a826" }}>
@@ -46,9 +44,7 @@ const CarDetails = () => {
                   </span>
                 </div>
 
-                <p className="section__description">
-                  {singleCarItem.description}
-                </p>
+               
 
                 <div
                   className=" d-flex align-items-center mt-3"

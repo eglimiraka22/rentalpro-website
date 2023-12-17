@@ -15,9 +15,12 @@ const HeroSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
+    arrows: false,
+
   };
+
   return (
-    <Slider {...settings} className="hero__slider">
+    <Slider  {...settings} className="hero__slider">
       <div className="slider__item slider__item-01 mt0">
         <Container>
           <div className="slider__content ">

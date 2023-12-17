@@ -75,7 +75,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Need Help?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +355 686554546
+                  <i class="ri-phone-fill"></i> +355 069 291 1744
                 </span>
               </div>
             </Col>
@@ -148,6 +148,7 @@ const Header = () => {
             <span className="mobile__menu">
               <i class="ri-menu-line" onClick={toggleMenu}></i>
             </span>
+            <span className=" mobile__menu__logo"><img src={imageLogo} width={60} height={50} alt="" /></span>
 
             <div className="navigation" ref={menuRef} >
               <div className="menu">

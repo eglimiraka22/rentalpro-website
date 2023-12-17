@@ -53,6 +53,12 @@
   z-index: 10;
   margin-bottom: 200px;
 }
+.slick-slider{
+  overflow: hidden;
+}
+.slick-list{
+  overflow: hidden;
+}
 
 .hero__form {
   position: absolute;

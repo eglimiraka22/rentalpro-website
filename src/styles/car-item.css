@@ -25,13 +25,13 @@
   padding: 8px 0px;
 }
 
-.car__item-btn a {
+.car__item-btn a , .car__item-btn span {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
 }
 
-.car__item-btn a:hover {
+.car__item-btn a:hover , .car__item-btn span  {
   color: #fff;
 }
 .car__btn-details {

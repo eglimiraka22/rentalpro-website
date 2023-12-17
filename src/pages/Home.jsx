@@ -45,6 +45,7 @@ const Home = () => {
             <Col lg="12" className="text-center mb-5">
               <h6 className="section__subtitle">Come with</h6>
               <h2 className="section__title">  Car Rental Prices</h2>
+              <span style={{color:"white"}}>Starting from  $25</span>
             </Col>
 
             {carData.slice(0, 6).map((item) => (

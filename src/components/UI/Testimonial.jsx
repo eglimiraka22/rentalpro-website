@@ -18,6 +18,7 @@ const Testimonial = () => {
     autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows:false,
     responsive: [
       {
         breakpoint: 992,
