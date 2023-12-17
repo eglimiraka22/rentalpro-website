@@ -105,7 +105,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>Albania</h4>
-                  <h6>Tirana Rruga loremipsu</h6>
+                  <h6>Tirane,Ali Demi</h6>
                 </div>
               </div>
             </Col>
