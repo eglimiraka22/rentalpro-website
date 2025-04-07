@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import imageLogo from '../../assets/all-images/rentalpro1.png'
+import imageLogo from '../../assets/all-images/NO_BG_APR.png'
 const navLinks = [
   {
     path: "/",
@@ -148,7 +148,7 @@ const Header = () => {
             <span className="mobile__menu">
               <i class="ri-menu-line" onClick={toggleMenu}></i>
             </span>
-            <span className=" mobile__menu__logo"><img src={imageLogo} width={60} height={50} alt="" /></span>
+            <span className=" mobile__menu__logo"><img src={imageLogo} width={50} height={36} alt="" /></span>
 
             <div className="navigation" ref={menuRef} >
               <div className="menu">
