@@ -25,7 +25,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">Starting from 25€ per day</h4>
-            <h1 className="text-light mb-4">Welcome to Rental Pro</h1>
+            <h1 className="text-light mb-4">Welcome to Albania Pro Rental</h1>
 
             <button className="btn reserve__btn mt-4">
               <Link to="/cars">Rent Now</Link>

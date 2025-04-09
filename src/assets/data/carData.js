@@ -1,23 +1,32 @@
-// import all images from assets/images directory
-import img01 from "../images/WhatsApp Image 2023-12-11 at 22.43.05_f0ce9044.jpg";
-import img02 from "../images/imgcar1.jpg";
-import img03 from "../images/benz.jpg";
-import img04 from "../images/Golf7.jpg";
 
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import golf6 from "../images/golf6.jpg";
+import golf5 from "../images/Golf5.jpg";
+import polo from "../images/polo.jpg";
+import ML from "../images/ML.jpg";
+
 
 const carData = [
   {
     id: 1,
-    brand: "Audi",
+    brand: "Mercedes",
+    rating: 132,
+    carName: "Mercedes benz ML",
+    imgUrl: ML,
+    model: "Model-2012 350",
+    price: 65,
+    speed: "15.5kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+  },
+  {
+    id: 2,
+    brand: "Golf 6",
     rating: 112,
-    carName: "Audi A6",
-    imgUrl: img01,
-    model: "Model-2006",
-    price: 35,
+    carName: "Golf 6 Sport",
+    imgUrl: golf6,
+    model: "Model-2012",
+    price: 40,
     speed: "14kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -25,47 +34,35 @@ const carData = [
   },
 
   {
-    id: 2,
+    id: 3,
     brand: "Volkswagen",
     rating: 102,
     carName: "Golf 5",
-    imgUrl: img02,
+    imgUrl: golf5,
     model: "Model-2006",
-    price: 50,
-    speed: "15kmpl",
+    price: 25,
+    speed: "11kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Manual",
   },
   {
-    id: 3,
+    id: 4,
     brand: "Volkswagen",
     rating: 132,
-    carName: "Golf 7",
-    imgUrl: img04,
-    model: "Model-2016",
-    price: 65,
-    speed: "24kmpl",
+    carName: "Golf Polo",
+    imgUrl: polo,
+    model: "Model-2012",
+    price: 30,
+    speed: "12kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    automatic: "Manual",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
-  {
-    id: 4,
-    brand: "Benz",
-    rating: 132,
-    carName: "Mercedes benz",
-    imgUrl: img03,
-    model: "Model-2002",
-    price: 65,
-    speed: "15kmpl",
-    gps: "No GPS",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-  },
+
 
 
 ];

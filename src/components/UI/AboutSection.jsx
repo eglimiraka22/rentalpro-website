@@ -18,9 +18,9 @@ const AboutSection = ({ aboutClass }) => {
           <Col lg="5" md="6">
             <div className="about__section-content">
               <h4 className="section__subtitle">About Us</h4>
-              <h2 className="section__title">Welcome to Rental Pro</h2>
+              <h2 className="section__title">Welcome to Albania Pro Rental</h2>
               <p className="section__description">
-                Welcome to Rental Pro, your premier destination for top-notch car rentals. We take pride in providing exceptional service, ensuring your journey is as smooth as the cars we offer.
+                Welcome to Albania  Pro Rental, your premier destination for top-notch car rentals. We take pride in providing exceptional service, ensuring your journey is as smooth as the cars we offer.
 
                 Our commitment to excellence is evident in every aspect of our business. From a diverse fleet of well-maintained vehicles to a customer-centric approach, Rental Pro is your trusted partner in hassle-free travel.
 

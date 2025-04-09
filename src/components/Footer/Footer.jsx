@@ -60,7 +60,7 @@ const Footer = () => {
             <div className='mb-4'>
               <h5 className='footer__link-title mb-4'>Tirana,Ali Demi </h5>
               <p className='office__info'>123 Tirana,Albania</p>
-              <p className='office__info'>Phone: 069 291 1744</p>
+              <p className='office__info'>Phone: +355 684506951</p>
 
               <p className='office__info'>Email: rentalpro2023@hotmail.com</p>
 

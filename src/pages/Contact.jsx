@@ -8,7 +8,7 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "https://www.instagram.com/rentalpro.al/",
+    url: "https://www.instagram.com/albania_pro_rental/",
     icon: "ri-facebook-line",
   },
   {
@@ -70,7 +70,7 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
-                  <p className="section__description mb-0">+355 69 291 1744
+                  <p className="section__description mb-0">+355 684506951
 </p>
                 </div>
 

@@ -1,11 +1,11 @@
 .slider__item {
   max-width: 100%;
-  height: 650px;
+  height: 80dvh;
 }
 
 .slider__item-01 {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("../assets/images/WhatsApp\ Image\ 2023-12-11\ at\ 22.43.05_f0ce9044.jpg");
+    url("../assets/images/ML.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 .slider__item-02 {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-  url("../assets/images/Golf7.jpg");
+  url("../assets/images/golf6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@
 
 .slider__item-03 {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("../assets/images/header.jpg");
+    url("../assets/images/polo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
